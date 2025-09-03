@@ -3,464 +3,418 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>地域プロデューサー養成講座（初級）- 東京山側DMC</title>
+    <title>地域創生プロデューサー養成講座《初級》無料説明会 | 株式会社東京山側DMC</title>
     
-    <!-- ここにOGPメタタグを追加 -->
-    <meta property="og:title" content="地域プロデューサー養成講座（初級）- 東京山側DMC">
+    <!-- SNSシェア用OGPメタタグ - ここのみ追加/修正 -->
+    <meta property="og:title" content="地域創生プロデューサー養成講座《初級》無料説明会 | 株式会社東京山側DMC">
     <meta property="og:description" content="地域の風土に根ざす営みから、次の産業を育てる4回完結講座">
     <meta property="og:image" content="https://page.gensparksite.com/v1/base64_upload/eb6f674447a2c49298f15741dc071f47">
     <meta property="og:url" content="https://あなたのユーザー名.github.io/regional-producer-lp/">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="株式会社東京山側DMC">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="地域創生プロデューサー養成講座《初級》無料説明会">
+    <meta name="twitter:description" content="地域の風土に根ざす営みから、次の産業を育てる4回完結講座">
+    <meta name="twitter:image" content="https://page.gensparksite.com/v1/base64_upload/eb6f674447a2c49298f15741dc071f47">
     
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+            font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
         }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .hero-gradient {
+            background: linear-gradient(135deg, #2E8B57, #98D8C8);
         }
-        
-        .header {
-            background: linear-gradient(135deg, #2c5530, #4a7c59);
-            color: white;
-            padding: 60px 0;
-            text-align: center;
+        .card-shadow {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        
-        .header .subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: #ff6b35;
-            color: white;
-            padding: 15px 40px;
-            text-decoration: none;
-            border-radius: 50px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
-        }
-        
-        .cta-button:hover {
-            background: #e55a2b;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
-        }
-        
-        .section {
-            padding: 80px 0;
-        }
-        
-        .section:nth-child(even) {
-            background-color: white;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 2.2rem;
-            margin-bottom: 60px;
-            color: #2c5530;
-            position: relative;
-        }
-        
-        .section-title:after {
-            content: '';
-            width: 80px;
-            height: 3px;
-            background: #ff6b35;
-            display: block;
-            margin: 20px auto 0;
-            border-radius: 2px;
-        }
-        
-        .problem-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 40px;
-            margin-bottom: 60px;
-        }
-        
-        .problem-item {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-        
-        .problem-item:hover {
-            transform: translateY(-5px);
-        }
-        
-        .problem-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            display: block;
-        }
-        
-        .problem-title {
-            font-size: 1.4rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #2c5530;
-        }
-        
-        .problem-text {
-            color: #666;
-            line-height: 1.8;
-        }
-        
-        .course-overview {
-            background: white;
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-            margin-bottom: 60px;
-        }
-        
-        .course-overview h3 {
-            font-size: 1.8rem;
-            color: #2c5530;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .course-details {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-        
-        .detail-item {
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #ff6b35;
-        }
-        
-        .detail-label {
-            font-weight: bold;
-            color: #2c5530;
-            margin-bottom: 10px;
-        }
-        
-        .detail-value {
-            color: #666;
-        }
-        
-        .curriculum {
-            margin-top: 40px;
-        }
-        
-        .curriculum-item {
-            background: white;
-            padding: 30px;
-            margin-bottom: 20px;
-            border-radius: 15px;
-            border-left: 5px solid #4a7c59;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-        }
-        
-        .curriculum-number {
-            background: #4a7c59;
-            color: white;
-            width: 40px;
-            height: 40px;
+        .feature-icon {
+            background: linear-gradient(135deg, #2E8B57, #66BB6A);
             border-radius: 50%;
-            display: inline-flex;
+            width: 60px;
+            height: 60px;
+            display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            margin-right: 15px;
-            margin-bottom: 15px;
+            color: white;
+            font-size: 24px;
         }
-        
-        .curriculum-title {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: #2c5530;
-            margin-bottom: 10px;
-        }
-        
-        .curriculum-content {
-            color: #666;
-            line-height: 1.8;
-        }
-        
-        .instructors {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .instructor {
-            text-align: center;
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        
-        .instructor-photo {
-            width: 100px;
-            height: 100px;
+        .step-icon {
+            background: linear-gradient(135deg, #2E8B57, #66BB6A);
             border-radius: 50%;
-            margin: 0 auto 20px;
-            background: #ddd;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+        .curriculum-card {
+            background: linear-gradient(135deg, #f8fdf8, #e8f5e8);
+            border-left: 4px solid #2E8B57;
+            transition: transform 0.3s ease;
+        }
+        .curriculum-card:hover {
+            transform: translateY(-2px);
+        }
+        .instructor-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
             object-fit: cover;
+            border: 4px solid #2E8B57;
         }
-        
-        .instructor-name {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #2c5530;
-            margin-bottom: 10px;
+        .cta-button {
+            background: linear-gradient(135deg, #2E8B57, #228B22);
+            transition: all 0.3s ease;
         }
-        
-        .instructor-role {
-            color: #666;
-            font-size: 0.9rem;
+        .cta-button:hover {
+            background: linear-gradient(135deg, #228B22, #2E8B57);
+            transform: translateY(-2px);
         }
-        
-        .testimonials {
-            margin-top: 60px;
+        .concern-icon {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            margin: 0 auto 1rem;
         }
-        
-        .testimonial {
-            background: white;
-            padding: 40px;
+        .header-feature {
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-            position: relative;
-        }
-        
-        .testimonial:before {
-            content: '"';
-            font-size: 4rem;
-            color: #ff6b35;
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            line-height: 1;
-        }
-        
-        .testimonial-text {
-            margin-left: 40px;
-            color: #333;
-            line-height: 1.8;
-            margin-bottom: 20px;
-        }
-        
-        .testimonial-author {
-            text-align: right;
-            color: #666;
-            font-weight: bold;
-        }
-        
-        .final-cta {
-            background: linear-gradient(135deg, #2c5530, #4a7c59);
-            color: white;
+            padding: 1rem;
             text-align: center;
-            padding: 80px 0;
+            backdrop-filter: blur(10px);
         }
-        
-        .final-cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
-        
-        .final-cta p {
-            font-size: 1.2rem;
-            margin-bottom: 40px;
-            opacity: 0.9;
-        }
-        
-        .footer {
-            background: #2c5530;
+        .header-icon {
             color: white;
-            text-align: center;
-            padding: 40px 0;
-        }
-        
-        @media (max-width: 768px) {
-            .problem-grid,
-            .course-details {
-                grid-template-columns: 1fr;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .section-title {
-                font-size: 1.8rem;
-            }
-            
-            .container {
-                padding: 0 15px;
-            }
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
         }
     </style>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <h1>地域の"風土"に根ざす営みから、次の産業を育てる</h1>
-            <p class="subtitle">地域プロデューサー養成講座（初級）9月スタート</p>
-            <a href="https://forms.gle/kuPLJKe4SukFxjAf7" class="cta-button">今すぐ申し込む（無料）</a>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                地域の"風土"に根ざす営みから、<br>
+                次の産業を育てる
+            </h1>
+            <p class="text-xl mb-8">
+                "土地の記憶"と"文化資本"を、次代の産業に翻訳する民間型地域創生プロジェクト
+            </p>
+            <p class="text-lg mb-12">
+                自立型DMCを担う人材として、風土・文化・自然・経済の交差点で、地域の未来を編み直す力を共創します
+            </p>
+            
+            <!-- Features Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                <div class="header-feature">
+                    <i class="fas fa-yen-sign header-icon"></i>
+                    <h3 class="font-bold text-sm">受講無料</h3>
+                    <p class="text-xs">(教材費5,000円)</p>
+                </div>
+                <div class="header-feature">
+                    <i class="fas fa-laptop header-icon"></i>
+                    <h3 class="font-bold text-sm">現地研修+オンライン全4回</h3>
+                </div>
+                <div class="header-feature">
+                    <i class="fas fa-users header-icon"></i>
+                    <h3 class="font-bold text-sm">年齢・職種・地域不問</h3>
+                </div>
+                <div class="header-feature">
+                    <i class="fas fa-handshake header-icon"></i>
+                    <h3 class="font-bold text-sm">補助金ゼロ・民間主導</h3>
+                </div>
+            </div>
+            
+            <!-- CTA Button -->
+            <div class="mt-12">
+                <a href="https://forms.gle/kuPLJKe4SukFxjAf7" class="cta-button text-white px-8 py-4 rounded-full text-xl font-bold inline-block">
+                    無料説明会に申し込む
+                </a>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">こんなお悩みありませんか？</h2>
-            <div class="problem-grid">
-                <div class="problem-item">
-                    <span class="problem-icon">🏘️</span>
-                    <h3 class="problem-title">地域の魅力を活かしきれない</h3>
-                    <p class="problem-text">豊かな自然や文化があるのに、それを事業に繋げる方法がわからない</p>
+    <!-- Concerns Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">こんなお悩みはありませんか？</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="concern-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <p class="text-lg">地域活性化に情熱があるが、<strong>具体的な方法や仲間</strong>が見つからない</p>
                 </div>
-                <div class="problem-item">
-                    <span class="problem-icon">🤝</span>
-                    <h3 class="problem-title">人とのつながりが作れない</h3>
-                    <p class="problem-text">地域の人々と協力したいが、どうやって関係性を築けばいいかわからない</p>
+                <div class="text-center">
+                    <div class="concern-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <p class="text-lg">"イベントで終わらない"<strong>持続可能なビジネスモデル</strong>を構築したい</p>
                 </div>
-                <div class="problem-item">
-                    <span class="problem-icon">💡</span>
-                    <h3 class="problem-title">アイデアを形にできない</h3>
-                    <p class="problem-text">地域活性化のアイデアはあるが、具体的な実行方法がわからない</p>
+                <div class="text-center">
+                    <div class="concern-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <p class="text-lg">自然・文化・歴史など地域固有の<strong>「風土」を活かした事業</strong>を展開したい</p>
                 </div>
-                <div class="problem-item">
-                    <span class="problem-icon">📈</span>
-                    <h3 class="problem-title">持続可能な事業作りに悩む</h3>
-                    <p class="problem-text">一時的な盛り上がりで終わらず、継続的に成長する仕組みが作れない</p>
+                <div class="text-center">
+                    <div class="concern-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <p class="text-lg">本質を学び、<strong>どんな状況でも機能するスキル</strong>を身につけたい</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">講座概要</h2>
-            <div class="course-overview">
-                <h3>4回完結・実践重視のカリキュラム</h3>
-                <div class="course-details">
-                    <div class="detail-item">
-                        <div class="detail-label">受講料</div>
-                        <div class="detail-value">無料（教材費5,000円のみ）</div>
+    <!-- Learning Cycle Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">3ステップ学習サイクルで確実に成長</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center">
+                    <div class="step-icon">1</div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">考える</h3>
+                    <p class="text-gray-600">自分の経験や知識を振り返り、アウトプットすることで学習の準備をします。</p>
+                </div>
+                <div class="text-center">
+                    <div class="step-icon">2</div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">学ぶ</h3>
+                    <p class="text-gray-600">準備ができた状態で新しい知識をインプットすることで、学びが深まります。</p>
+                </div>
+                <div class="text-center">
+                    <div class="step-icon">3</div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">応用</h3>
+                    <p class="text-gray-600">学んだことを実践にアウトプットすることで、知識が自分のものになります。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">全4回総括：地域プロデューサーへの成長ステップ</h2>
+            <p class="text-center text-lg mb-12 text-gray-600">講座形式：現地フィールドワーク1日＋オンライン講義3時間4回</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="curriculum-card p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="step-icon" style="width: 60px; height: 60px; font-size: 24px; margin-right: 1rem;">1</div>
+                        <h3 class="text-2xl font-bold text-gray-800">地域の設え者</h3>
                     </div>
-                    <div class="detail-item">
-                        <div class="detail-label">形式</div>
-                        <div class="detail-value">現地フィールドワーク1日＋オンライン講義3時間×4回</div>
-                    </div>
-                    <div class="detail-item">
-                        <div class="detail-label">開始時期</div>
-                        <div class="detail-value">2024年9月スタート</div>
-                    </div>
-                    <div class="detail-item">
-                        <div class="detail-label">受講生満足度</div>
-                        <div class="detail-value">1000%（驚異的な実績）</div>
-                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>ジオ×風土×文化で地域を多角的に理解</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>「設え」の概念と五感体験の設計</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>定数と変数の識別・「郷に入って郷に従う」</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>一次情報重視と現場主義の実践</li>
+                    </ul>
                 </div>
                 
-                <div class="curriculum">
-                    <div class="curriculum-item">
-                        <span class="curriculum-number">1</span>
-                        <div class="curriculum-title">地域の設え者として</div>
-                        <div class="curriculum-content">地域の資源と課題を正しく理解し、自分の役割を明確にします</div>
+                <div class="curriculum-card p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="step-icon" style="width: 60px; height: 60px; font-size: 24px; margin-right: 1rem;">2</div>
+                        <h3 class="text-2xl font-bold text-gray-800">未来を設える調整力</h3>
                     </div>
-                    <div class="curriculum-item">
-                        <span class="curriculum-number">2</span>
-                        <div class="curriculum-title">未来を設える調整力</div>
-                        <div class="curriculum-content">ステークホルダーとの関係構築と合意形成のスキルを身につけます</div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>価格設定と持続可能な事業構築</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>地域との関係性・二層構造モデル</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>「お客様扱い」から「お身内扱い」へ</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>行動とタイミングの戦略的調整</li>
+                    </ul>
+                </div>
+                
+                <div class="curriculum-card p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="step-icon" style="width: 60px; height: 60px; font-size: 24px; margin-right: 1rem;">3</div>
+                        <h3 class="text-2xl font-bold text-gray-800">個人の設え力を高める</h3>
                     </div>
-                    <div class="curriculum-item">
-                        <span class="curriculum-number">3</span>
-                        <div class="curriculum-title">個人の設え力</div>
-                        <div class="curriculum-content">自分自身の強みを活かした独自の価値創造方法を学習します</div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>発想の設え：思い込みを捨て逆張り思考へ</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>関係の設え：0.2秒返信・先回り・期待超え</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>繋ぎの設え：人と人を結ぶ技術</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>思いやりから生まれる本質的な力</li>
+                    </ul>
+                </div>
+                
+                <div class="curriculum-card p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="step-icon" style="width: 60px; height: 60px; font-size: 24px; margin-right: 1rem;">4</div>
+                        <h3 class="text-2xl font-bold text-gray-800">チームを創る・DMCプラットフォーム</h3>
                     </div>
-                    <div class="curriculum-item">
-                        <span class="curriculum-number">4</span>
-                        <div class="curriculum-title">チーム創造・DMCプラットフォーム</div>
-                        <div class="curriculum-content">継続的な成長を支える組織作りとプラットフォーム活用を習得します</div>
-                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>罠と仕掛けによるチーム戦略</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>DMCプラットフォームによる連携強化</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>地域間の相互送客・リソース共有</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>共創コミュニティによる価値創造</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">講師陣</h2>
-            <div class="instructors">
-                <div class="instructor">
-                    <img src="https://via.placeholder.com/100x100/4a7c59/white?text=宮入" alt="宮入正陽" class="instructor-photo">
-                    <h3 class="instructor-name">宮入正陽</h3>
-                    <p class="instructor-role">代表・メイン講師</p>
+    <!-- Instructors Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">講師紹介</h2>
+            
+            <!-- Main Instructor -->
+            <div class="max-w-4xl mx-auto mb-12">
+                <div class="bg-white rounded-lg card-shadow p-8 text-center">
+                    <img src="https://page.gensparksite.com/v1/base64_upload/0427dac097d6fb73e7cbaf33134bb97c" alt="宮入正陽" class="instructor-photo mx-auto mb-6">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800">宮入 正陽</h3>
+                    <p class="text-lg text-green-600 mb-4">株式会社東京山側DMC代表取締役</p>
+                    <p class="text-gray-600 leading-relaxed">
+                        人材アウトソーシング、外資系生保、M&Aアドバイザリーという多彩なキャリアを経て、地域の課題解決をライフワークとする異色の経営者。2021年に一般社団法人フォースウエルネスを創業し、"東京の山側"、多摩地域の豊かな自然環境を活かした探求型自然体験学習事業を開始。机上の空論ではない、現場に根差した課題解決の手腕で地域からの信頼を築く。そして2024年、アドベンチャーツーリズム事業の本格化を目指し、株式会社東京山側DMCを設立。まさに今、地域のポテンシャルを「持続可能な観光」という形で事業化し、経済的な成功へと導こうとしている実践者。
+                    </p>
                 </div>
-                <div class="instructor">
-                    <img src="https://via.placeholder.com/100x100/4a7c59/white?text=櫻澤" alt="櫻澤裕樹" class="instructor-photo">
-                    <h3 class="instructor-name">櫻澤裕樹</h3>
-                    <p class="instructor-role">地域戦略アドバイザー</p>
+            </div>
+            
+            <!-- Sub Instructors -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg card-shadow p-6 text-center">
+                    <img src="https://mt-tokyo.com/cdn/shop/files/1_2ac2c3cb-fcee-47c4-9eb5-5eb32c4950dc.jpg" alt="櫻澤裕樹" class="instructor-photo mx-auto mb-4" style="width: 120px; height: 120px;">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">櫻澤 裕樹</h4>
+                    <p class="text-green-600 mb-2">みちくさの達人</p>
+                    <p class="text-sm text-gray-600">元環境省レンジャー。子どもたちに自然の魅力を伝える探究型自然体験のエキスパート。</p>
                 </div>
-                <div class="instructor">
-                    <img src="https://via.placeholder.com/100x100/4a7c59/white?text=師岡" alt="師岡龍也" class="instructor-photo">
-                    <h3 class="instructor-name">師岡龍也</h3>
-                    <p class="instructor-role">事業開発コンサルタント</p>
+                
+                <div class="bg-white rounded-lg card-shadow p-6 text-center">
+                    <img src="https://mt-tokyo.com/cdn/shop/files/LINE_ALBUM_230927_2.jpg" alt="師岡龍也" class="instructor-photo mx-auto mb-4" style="width: 120px; height: 120px;">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">師岡 龍也</h4>
+                    <p class="text-green-600 mb-2">アドベンチャートラベル専門家</p>
+                    <p class="text-sm text-gray-600">国際基準のアドベンチャートラベルガイド育成を推進。地域課題をビジネスで解決するエキスパート。</p>
                 </div>
-                <div class="instructor">
-                    <img src="https://via.placeholder.com/100x100/4a7c59/white?text=村野" alt="村野夏生" class="instructor-photo">
-                    <h3 class="instructor-name">村野夏生</h3>
-                    <p class="instructor-role">コミュニティデザイナー</p>
+                
+                <div class="bg-white rounded-lg card-shadow p-6 text-center">
+                    <img src="https://mt-tokyo.com/cdn/shop/files/LINE_ALBUM_240304_1.jpg" alt="村野夏生" class="instructor-photo mx-auto mb-4" style="width: 120px; height: 120px;">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">村野 夏生</h4>
+                    <p class="text-green-600 mb-2">体験設計スペシャリスト</p>
+                    <p class="text-sm text-gray-600">子どもたちのワクワクを引き立て、挑戦する場を創造。地域コミュニティづくりのプロフェッショナル。</p>
                 </div>
-                <div class="instructor">
-                    <img src="https://via.placeholder.com/100x100/4a7c59/white?text=西川" alt="西川佳克" class="instructor-photo">
-                    <h3 class="instructor-name">西川佳克</h3>
-                    <p class="instructor-role">マーケティング専門家</p>
+                
+                <div class="bg-white rounded-lg card-shadow p-6 text-center">
+                    <img src="https://page.gensparksite.com/v1/base64_upload/802e984f9a035bbb33bcfcedc95bd93d" alt="西川佳克" class="instructor-photo mx-auto mb-4" style="width: 120px; height: 120px;">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">西川 佳克</h4>
+                    <p class="text-green-600 mb-2">農業・修験道専門家</p>
+                    <p class="text-sm text-gray-600">当山派修験道を修了。農業体験を通じて子どもたちに思いやりと生き抜く力を伝える。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="final-cta">
-        <div class="container">
-            <h2>地域の未来を一緒に創りませんか？</h2>
-            <p>補助金ゼロの民間主導による本格的な学習プログラム</p>
-            <a href="https://forms.gle/kuPLJKe4SukFxjAf7" class="cta-button">今すぐ申し込む（無料）</a>
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">受講生の生の声</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"この講座に対する私の満足度は1000パーセント❣"</p>
+                    <p class="text-green-600 font-bold">40代女性</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"回を重ねるごとに'人生の講義'と呼ぶにふさわしい深い学び。"</p>
+                    <p class="text-green-600 font-bold">40代男性</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"自分の成長を在り方から学べる、本気の場だった。"</p>
+                    <p class="text-green-600 font-bold">50代男性</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"思考法と視座がアップデートされ、地域を見る目が変わった。"</p>
+                    <p class="text-green-600 font-bold">40代男性</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"ブレイクアウトでの100人組み手が刺激的。全国の仲間と切磋琢磨できた。"</p>
+                    <p class="text-green-600 font-bold">30代女性</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 card-shadow">
+                    <p class="text-gray-800 mb-4 italic">"ハウツーではなく普遍的な原理原則が身についた実感。"</p>
+                    <p class="text-green-600 font-bold">50代女性</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 株式会社東京山側DMC. All rights reserved.</p>
+    <!-- Future Vision Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-gray-800">🌍 修了後の未来像</h2>
+            <h3 class="text-2xl font-bold mb-6 text-green-600">"風土共創圏"のコアプレイヤーに</h3>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg text-gray-600 mb-6">
+                    初級講座修了後は、希望者は数ヶ月に及ぶ上級講座を受講する事も可能です。(有料)
+                </p>
+                <p class="text-lg text-gray-600 mb-6">
+                    上級講座修了者は、地域の中核プレイヤーとして、自治体・企業と連携し、土地の文脈に根ざした新しい経営実践を通じて、<strong>「日本を"風土経営国家"へ」</strong>という未来構想を共に進めます。
+                </p>
+                <p class="text-lg text-gray-600">
+                    "風土共創圏"──それは、地域に受け継がれる自然観や営みを軸に、民と官、都市と地方が水平につながり、価値を共に創る新しい循環のビジョンです。
+                </p>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- How to Participate Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">参加方法</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="step-icon">1</div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">申し込み</h3>
+                    <p class="text-gray-600">下記「無料説明会に申し込む」ボタンをクリック</p>
+                </div>
+                <div class="text-center">
+                    <div class="step-icon">2</div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">入力</h3>
+                    <p class="text-gray-600">希望日などフォームに必要事項を入力（所要時間３分）</p>
+                </div>
+            </div>
+            <p class="text-center text-lg mt-8 text-gray-600">
+                定員になり次第、募集を締め切ります。<br>
+                <strong>地域と日本の未来を創る"設え者"への第一歩</strong>を、どうぞお見逃しなく！
+            </p>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">地域の未来を、あなたの手で。</h2>
+            <p class="text-xl mb-8">今すぐ無料説明会にお申し込みください</p>
+            <a href="https://forms.gle/kuPLJKe4SukFxjAf7" class="cta-button text-white px-8 py-4 rounded-full text-xl font-bold inline-block">
+                無料説明会に申し込む
+            </a>
+        </div>
+    </section>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"97923412299200a1","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"4edd5f8ec12a48cfa682ab8261b80a79"}' crossorigin="anonymous"></script>
 </body>
 </html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDkEDLfCPjsxYVDZni3Gkoukw05rqD42qm%2BJZ4IXCy%2B%2BqqWoClF38r%2BuKfxAB%2F7zVAOFTiIYSONMs7y2BU5%2FcWyLg%2FXBxeu5TjnNKUWvzJpH6hE7Kg8HktrXOij5wp%2FgjeJL995edkMHYFV%2BuqLx6vwKLl1Ys4sP0u7AlUHpocxFlpecvUKwLSD9Dy5dnOpJdeKS0FupFU7%2FwLI9nLfl6vA701WVYz8QthSxiAlFTmyPgy4KvzZRWdOKGRrP5ZCj%2BntT3y1pXhJLdaYQ%2BMBsOfsh1ihiR%2FXlaKqU3jtu5RN1fpDgEF4jcbMWSLM2Uv2V2s26iO8w6w9auu5xb8R3SGUO3O2cAIiir7YRWKm0OGCbWQfNm2%2FRCG2%2BQtitTdlRyQn50kXZ8MuKdiYio3r5u9eS%2B5Llvp3hi0syn%2BY%2B%2FT1J6EYes12eBI5SWiB2Xe88LcgWyuRc0yLEK6M8eQRO%2BUavE3A1DNBGH9EE%2Bld%2Bm9pb9gwQNjiKeZkUFILj9MnE7a94ND0hAQs5%2FMRKsV2H2v1GE10vxanQy%2FtEIN1VWN8M7";
+        window.__genspark_locale = "ja-JP";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDkEDLfCPjsxYVDZni3Gkoukw05rqD42qm+JZ4IXCy++qqWoClF38r+uKfxAB/7zVAOFTiIYSONMs7y2BU5/cWyLg/XBxeu5TjnNKUWvzJpH6hE7Kg8HktrXOij5wp/gjeJL995edkMHYFV+uqLx6vwKLl1Ys4sP0u7AlUHpocxFlpecvUKwLSD9Dy5dnOpJdeKS0FupFU7/wLI9nLfl6vA701WVYz8QthSxiAlFTmyPgy4KvzZRWdOKGRrP5ZCj+ntT3y1pXhJLdaYQ+MBsOfsh1ihiR/XlaKqU3jtu5RN1fpDgEF4jcbMWSLM2Uv2V2s26iO8w6w9auu5xb8R3SGUO3O2cAIiir7YRWKm0OGCbWQfNm2/RCG2+QtitTdlRyQn50kXZ8MuKdiYio3r5u9eS+5Llvp3hi0syn+Y+/T1J6EYes12eBI5SWiB2Xe88LcgWyuRc0yLEK6M8eQRO+UavE3A1DNBGH9EE+ld+m9pb9gwQNjiKeZkUFILj9MnE7a94ND0hAQs5/MRKsV2H2v1GE10vxanQy/tEIN1VWN8M7";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
